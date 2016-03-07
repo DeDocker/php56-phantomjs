@@ -41,7 +41,7 @@ RUN \
     # Downloading src, unzipping & removing zip
 &&  mkdir /phantomjs \
 &&  cd /phantomjs \
-&&  wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.0.0-source.zip \
+&&  wget https://github.com/ariya/phantomjs/archive/2.0.0.zip -O phantomjs-2.0.0-source.zip \
 &&  unzip phantomjs-2.0.0-source.zip \
 &&  rm -rf /phantomjs/phantomjs-2.0.0-source.zip \
     # Building phantom
